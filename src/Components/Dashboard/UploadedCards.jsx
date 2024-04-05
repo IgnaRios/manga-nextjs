@@ -1,6 +1,6 @@
 const UploadedCards = () => {
   return (
-    <div className="p-1 flex flex-wrap items-center justify-center">
+    <div className="p-1 flex flex-wrap items-center justify-center overflow-x-hidden">
       <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 max-w-sm mx-auto mt-1">
         <img
           src="https://picsum.photos/180/250"

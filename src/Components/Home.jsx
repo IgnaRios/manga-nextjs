@@ -8,19 +8,16 @@ const Home = () => {
     <div className="h-full">
       <h1 className="text-center mt-10">Home</h1>
       <div className="block">
-        <div className="grid grid-cols-2 ">
-          <section className="my-5">
-            {
-              //TODO: Hacer carrusel de los más vistos y siguiendo
-            }
+        <div className="grid grid-cols-2 gap-5 ">
+          <section className="my-5  overflow-auto">
             <h3 className="">Más Vistos</h3>
             <LikedCards />
           </section>
 
-          <section className="my-5">
-            <h3 className="">Leyendo</h3>
+          <div className="my-5 overflow-auto">
+            <h3>Leyendo</h3>
             <ReadingCards />
-          </section>
+          </div>
         </div>
         <div className="divider"></div>
         <section>

@@ -1,8 +1,8 @@
 const ReadingCards = () => {
   return (
-    <div className="block overflow-x-auto h-60">
-      <div className="p-1 flex flex-wrap items-center justify-start ">
-        <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 max-w-sm mx-auto mt-1">
+    <div className="overglow-x-auto flex">
+      <div className="p-2 flex items-center justify-between gap-3 ">
+        <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 mt-1">
           <img
             src="https://picsum.photos/180/250"
             alt="Nombre del Manga"
@@ -15,8 +15,8 @@ const ReadingCards = () => {
           <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
             Categoría
           </div>
-        </article>
-        <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 max-w-sm mx-auto mt-1">
+        </div>
+        <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 mt-1">
           <img
             src="https://picsum.photos/180/250"
             alt="Nombre del Manga"
@@ -29,8 +29,8 @@ const ReadingCards = () => {
           <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
             Categoría
           </div>
-        </article>
-        <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 max-w-sm mx-auto mt-1">
+        </div>
+        <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 mt-1">
           <img
             src="https://picsum.photos/180/250"
             alt="Nombre del Manga"
@@ -43,8 +43,8 @@ const ReadingCards = () => {
           <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
             Categoría
           </div>
-        </article>
-        <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 max-w-sm mx-auto mt-1">
+        </div>
+        <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 mt-1">
           <img
             src="https://picsum.photos/180/250"
             alt="Nombre del Manga"
@@ -57,8 +57,8 @@ const ReadingCards = () => {
           <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
             Categoría
           </div>
-        </article>
-        <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 max-w-sm mx-auto mt-1">
+        </div>
+        <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 mt-1">
           <img
             src="https://picsum.photos/180/250"
             alt="Nombre del Manga"
@@ -71,8 +71,8 @@ const ReadingCards = () => {
           <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
             Categoría
           </div>
-        </article>
-        <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 max-w-sm mx-auto mt-1">
+        </div>
+        <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-1 pt-40 mt-1">
           <img
             src="https://picsum.photos/180/250"
             alt="Nombre del Manga"
@@ -85,7 +85,7 @@ const ReadingCards = () => {
           <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
             Categoría
           </div>
-        </article>
+        </div>
       </div>
     </div>
   );

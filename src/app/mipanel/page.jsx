@@ -9,15 +9,18 @@ export default function Panel() {
       <h1 className="text-center mt-10">Dashboard</h1>
 
       <div className="block">
-        <div className="grid grid-cols-2 ">
-          <section className="my-5  overflow-auto">
+        <div className="grid grid-cols-2 gap-5 ">
+          <div>
             <h3 className="">Más Vistos</h3>
-            <LikedCards />
-          </section>
-
-          <div className="my-5 overflow-auto">
+            <section className="my-5  overflow-auto">
+              <LikedCards />
+            </section>
+          </div>
+          <div>
             <h3>Leyendo</h3>
-            <ReadingCards />
+            <div className="my-5 overflow-auto">
+              <ReadingCards />
+            </div>
           </div>
         </div>
 
